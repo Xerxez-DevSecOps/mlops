@@ -1,6 +1,6 @@
 import os
 import yaml
-import pandas as pf
+import pandas as pd
 import argparse 
 from pkgutil import get_data
 

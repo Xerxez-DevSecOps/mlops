@@ -1,0 +1,10 @@
+stages: 
+  load_data:
+    cmd: python src/load_data.py
+    deps:
+      - src/get_data.py
+      - src/load_data.py
+      - data_source:
+          s3_source: data/raw/insurance.csv
+    outs:
+      - data/external/insurance.csv

@@ -28,3 +28,10 @@ stages:
       - models/model.pkl
       - reports/metrics.yaml
       - reports/parmas.yaml
+
+  logs_production_model:
+    cmd : python src/train_and_evaluate_mlflow.py
+    deps:
+      - src/train_and_evaluate_mlflow.py
+      - data/processed/train_insurance.csv
+      - data/processed/test_insurance.csv

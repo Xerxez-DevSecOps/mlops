@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1746805869961
+current_stage: Production
+description: ''
+last_updated_timestamp: 1746806327216
+name: ElasticNetMedicalExpenses
+run_id: 883e2c9d9f7d4cddab843627996b2a0e
+run_link: ''
+source: mlflow-artifacts:/635823754623970369/883e2c9d9f7d4cddab843627996b2a0e/artifacts/model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/635823754623970369/883e2c9d9f7d4cddab843627996b2a0e/artifacts/model
+user_id: null
+version: 3

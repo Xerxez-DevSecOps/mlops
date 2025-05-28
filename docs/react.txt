@@ -1,0 +1,8 @@
+npm install react react-dom react-scripts \
+@mui/material @mui/icons-material @emotion/react @emotion/styled \
+aos react-sketch-canvas \
+@fortawesome/fontawesome-svg-core @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome \
+axios file-saver pdfmake \
+react-router-dom react-helmet-async
+
+/* All Dependencies */

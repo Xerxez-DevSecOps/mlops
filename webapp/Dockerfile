@@ -11,6 +11,8 @@ COPY ./requirements.txt /requirements.txt
 RUN python -m venv /py && \
     /py/bin/pip install --upgrade pip && \
     apk add --update --no-cache postgresql-client && \
+    apk add libgomp && \
+    apk add libstdc++ && \
     apk add --update --no-cache --virtual .tmp-deps \
         build-base \
         postgresql-dev \
